@@ -8,13 +8,11 @@ require("colorscheme")
 -- 自动命令
 require("autocmds")
 
-
-
-require("lsp.mason")
-require("lsp.setup")
+-- require("lsp.mason")
+-- require("lsp.setup")
 require("lsp.nvim-cmp")
-
-require("dap.setup")
+--
+-- require("dap.setup")
 
 
 require("plugin-config.neodev")

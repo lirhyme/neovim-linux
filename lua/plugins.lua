@@ -65,10 +65,10 @@ packer.startup({
     use("folke/neodev.nvim") -- 代码提示内容加强
     use("tpope/vim-repeat")
     use("moll/vim-bbye") -- buffer
-    use("rhysd/accelerated-jk") -- speed
-    use("norcalli/nvim-colorizer.lua") -- show color
-    use("mtdl9/vim-log-highlighting") -- highlight log
-    use("nvim-pack/nvim-spectre") -- search ans replace
+    -- use("rhysd/accelerated-jk") -- speed
+    -- use("norcalli/nvim-colorizer.lua") -- show color
+    -- use("mtdl9/vim-log-highlighting") -- highlight log
+    -- use("nvim-pack/nvim-spectre") -- search ans replace
     -- -- code runner
     use("nvim-neotest/neotest") -- dap support
     use("CRAG666/code_runner.nvim") -- best code runner
@@ -103,11 +103,11 @@ packer.startup({
     -- completion(代码补全)
     -- 悬浮提示 定义跳转 实现跳转 引用查找 标识符查找
     --  --------------------- lsp --------------------
-    use("neovim/nvim-lspconfig") -- config for the nvim  lsp client
-    use("williamboman/mason.nvim") -- lsp installer
-    use("williamboman/mason-lspconfig.nvim") --
-    use("jayp0521/mason-null-ls.nvim")
-    use("jayp0521/mason-nvim-dap.nvim")
+    -- use("neovim/nvim-lspconfig") -- config for the nvim  lsp client
+    -- use("williamboman/mason.nvim") -- lsp installer
+    -- use("williamboman/mason-lspconfig.nvim") --
+    -- use("jayp0521/mason-null-ls.nvim")
+    -- use("jayp0521/mason-nvim-dap.nvim")
 
     --  lint and formatter
     use("mhartington/formatter.nvim") -- focus on formatter
@@ -128,6 +128,7 @@ packer.startup({
     use("hrsh7th/cmp-path") -- path for nvim-cmp
     use("hrsh7th/cmp-cmdline") -- cmdlien for nvim-cmp
     use("hrsh7th/cmp-nvim-lua") -- lua API
+
     -- snippets
     use("L3MON4D3/LuaSnip") --snippet engine
     use("saadparwaiz1/cmp_luasnip") -- LuaSnip require
@@ -138,19 +139,19 @@ packer.startup({
     use("ravenxrz/DAPInstall.nvim")
     use("rcarriga/nvim-dap-ui")
     use("theHamsta/nvim-dap-virtual-text")
-    use("mfussenegger/nvim-dap-python")
+    -- use("mfussenegger/nvim-dap-python")
     -- dap adapter
     use("jbyuki/one-small-step-for-vimkind")
 
-    use({
-      "iamcco/markdown-preview.nvim",
-      run = "cd app && npm install",
-      setup = function()
-        vim.g.mkdp_filetypes = { "markdown" }
-      end,
-      ft = { "markdown" },
-      disable = true,
-    })
+    -- use({
+    --   "iamcco/markdown-preview.nvim",
+    --   run = "cd app && npm install",
+    --   setup = function()
+    --     vim.g.mkdp_filetypes = { "markdown" }
+    --   end,
+    --   ft = { "markdown" },
+    --   disable = true,
+    -- })
     if packer_bootstrap then
       packer.sync()
     end
