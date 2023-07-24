@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "git@github.com:L3MON4D3/LuaSnip"
   },
-  ["accelerated-jk"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/accelerated-jk",
-    url = "git@github.com:rhysd/accelerated-jk"
-  },
   ["aerial.nvim"] = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/aerial.nvim",
@@ -214,26 +209,6 @@ _G.packer_plugins = {
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "git@github.com:nvim-lualine/lualine.nvim"
   },
-  ["mason-lspconfig.nvim"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-    url = "git@github.com:williamboman/mason-lspconfig.nvim"
-  },
-  ["mason-null-ls.nvim"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
-    url = "git@github.com:jayp0521/mason-null-ls.nvim"
-  },
-  ["mason-nvim-dap.nvim"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/mason-nvim-dap.nvim",
-    url = "git@github.com:jayp0521/mason-nvim-dap.nvim"
-  },
-  ["mason.nvim"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "git@github.com:williamboman/mason.nvim"
-  },
   ["neodev.nvim"] = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/neodev.nvim",
@@ -274,20 +249,10 @@ _G.packer_plugins = {
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "git@github.com:hrsh7th/nvim-cmp"
   },
-  ["nvim-colorizer.lua"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
-    url = "git@github.com:norcalli/nvim-colorizer.lua"
-  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "git@github.com:mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-python"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-dap-python",
-    url = "git@github.com:mfussenegger/nvim-dap-python"
   },
   ["nvim-dap-ui"] = {
     loaded = true,
@@ -323,11 +288,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "git@github.com:neovim/nvim-lspconfig"
-  },
-  ["nvim-spectre"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/nvim-spectre",
-    url = "git@github.com:nvim-pack/nvim-spectre"
   },
   ["nvim-surround"] = {
     loaded = true,
@@ -409,6 +369,11 @@ _G.packer_plugins = {
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
     url = "git@github.com:nvim-telescope/telescope-media-files.nvim"
   },
+  ["telescope-ui-select.nvim"] = {
+    loaded = true,
+    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
+    url = "git@github.com:nvim-telescope/telescope-ui-select.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -443,11 +408,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "git@github.com:moll/vim-bbye"
-  },
-  ["vim-log-highlighting"] = {
-    loaded = true,
-    path = "/home/lirhyme/.local/share/nvim/site/pack/packer/start/vim-log-highlighting",
-    url = "git@github.com:mtdl9/vim-log-highlighting"
   },
   ["vim-repeat"] = {
     loaded = true,

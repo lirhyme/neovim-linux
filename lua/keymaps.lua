@@ -50,6 +50,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
+keymap("i", "df", "<ESC>", opts)
 -- keymap("i", "<A-l>", "<Right>", opts)
 -- keymap("i", "<A-h>", "<Left>", opts)
 -- Visual --

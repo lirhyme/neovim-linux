@@ -47,10 +47,10 @@ local handlers = require('lsp.handlers')
 
 local servers = {
   'lua_ls', -- Lua
-  'pyright', -- Python
-  'tsserver', -- Typescript
-  'clangd', -- c/c++
-  'jdtls', -- Java
+  -- 'pyright', -- Python
+  -- 'tsserver', -- Typescript
+  -- 'clangd', -- c/c++
+  -- 'jdtls', -- Java
 }
 
 for _, server in ipairs(servers) do

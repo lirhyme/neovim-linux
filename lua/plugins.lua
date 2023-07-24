@@ -85,6 +85,7 @@ packer.startup({
     -- telescope 搜索
     use("nvim-telescope/telescope.nvim") -- find_files
     -- telescope extension
+use {'nvim-telescope/telescope-ui-select.nvim' }
     use("nvim-telescope/telescope-media-files.nvim") -- media
     use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- sorter
     use("ahmedkhalf/project.nvim") -- project
@@ -103,7 +104,7 @@ packer.startup({
     -- completion(代码补全)
     -- 悬浮提示 定义跳转 实现跳转 引用查找 标识符查找
     --  --------------------- lsp --------------------
-    -- use("neovim/nvim-lspconfig") -- config for the nvim  lsp client
+    use("neovim/nvim-lspconfig") -- config for the nvim  lsp client
     -- use("williamboman/mason.nvim") -- lsp installer
     -- use("williamboman/mason-lspconfig.nvim") --
     -- use("jayp0521/mason-null-ls.nvim")

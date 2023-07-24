@@ -9,10 +9,10 @@ require("colorscheme")
 require("autocmds")
 
 -- require("lsp.mason")
--- require("lsp.setup")
+require("lsp.setup")
 require("lsp.nvim-cmp")
 --
--- require("dap.setup")
+require("dap.setup")
 
 
 require("plugin-config.neodev")
@@ -25,7 +25,7 @@ require("plugin-config.comment")
 require("plugin-config.alpha")
 require("plugin-config.fidget")
 require("plugin-config.gitsigns")
--- require("plugin-config.indent-blankline")
+require("plugin-config.indent-blankline")
 require("plugin-config.lualine")
 -- require("plugin-config.session-manager")
 require("plugin-config.autopairs")

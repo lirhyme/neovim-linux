@@ -5,6 +5,7 @@ if not status_ok then
 end
 
 telescope.load_extension('media_files')
+telescope.load_extension('ui-select')
 
 local themes = require("telescope.themes")
 local actions = require("telescope.actions")
