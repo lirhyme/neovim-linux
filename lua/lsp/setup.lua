@@ -46,10 +46,10 @@ local handlers = require('lsp.handlers')
 -- require("lsp.settings.sumneko_lua")
 
 local servers = {
-  'lua_ls', -- Lua
+  -- 'lua_ls', -- Lua
   -- 'pyright', -- Python
   -- 'tsserver', -- Typescript
-  -- 'clangd', -- c/c++
+  'clangd', -- c/c++
   -- 'jdtls', -- Java
 }
 

@@ -78,7 +78,7 @@ packer.startup({
     use("nvim-neotest/neotest-vim-test")
 
     -- transalte
-    use { "potamides/pantran.nvim" }
+    -- use { "potamides/pantran.nvim" }
     -- git
     use({ "lewis6991/gitsigns.nvim" })
     use("sindrets/diffview.nvim") -- diff
@@ -144,15 +144,15 @@ use {'nvim-telescope/telescope-ui-select.nvim' }
     -- dap adapter
     use("jbyuki/one-small-step-for-vimkind")
 
-    -- use({
-    --   "iamcco/markdown-preview.nvim",
-    --   run = "cd app && npm install",
-    --   setup = function()
-    --     vim.g.mkdp_filetypes = { "markdown" }
-    --   end,
-    --   ft = { "markdown" },
-    --   disable = true,
-    -- })
+    use({
+      "iamcco/markdown-preview.nvim",
+      run = "cd app && npm install",
+      setup = function()
+        vim.g.mkdp_filetypes = { "markdown" }
+      end,
+      ft = { "markdown" },
+      -- disable = true,
+    })
     if packer_bootstrap then
       packer.sync()
     end

@@ -1,0 +1,10 @@
+
+{
+  "gravizo":{
+    "prefix":"gravizo",
+    "body":["<img src='https://g.gravizo.com/svg?\n@startuml;\n$0\n@enduml\n'>"],
+    "description":"generate object log"
+
+
+  }
+}

@@ -12,7 +12,7 @@ vim.keymap.set("x", "<leader>tr", pantran.motion_translate, opts)
 pantran.setup{
   -- Default engine to use for translation. To list valid engine names run
   -- `:lua =vim.tbl_keys(require("pantran.engines"))`.
-  default_engine = "argos",
+  default_engine = "google",
   -- Configuration for individual engines goes here.
   engines = {
     yandex = {
@@ -23,12 +23,6 @@ pantran.setup{
       default_source = "auto",
       default_target = "zh",
     },
-    argos = {
-      default_source = "auto",
-      default_target = "en",
-      url = "https://translate.argosopentech.com",
-      api_key = vim.NIL,
-    }
   },
   controls = {
     mappings = {
