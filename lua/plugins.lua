@@ -68,6 +68,14 @@ packer.startup({
     -- use("rhysd/accelerated-jk") -- speed
     -- use("norcalli/nvim-colorizer.lua") -- show color
     -- use("mtdl9/vim-log-highlighting") -- highlight log
+
+    use({
+        'fei6409/log-highlight.nvim',
+        config = function()
+            require('log-highlight').setup {}
+        end
+    })
+        
     -- use("nvim-pack/nvim-spectre") -- search ans replace
     -- -- code runner
     use("nvim-neotest/neotest") -- dap support

@@ -10,7 +10,7 @@ vim.opt.foldenable = false
 vim.opt.foldlevel = 99
 configs.setup({
   -- A list of parser names, or "all"
-  ensure_installed = { "c", "lua", "rust" },
+  ensure_installed = { "lua" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

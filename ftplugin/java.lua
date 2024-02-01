@@ -16,5 +16,5 @@ config['init_options'] = {
   bundles = bundles;
 }
 
-require('jdtls').start_or_attach(config)
+-- require('jdtls').start_or_attach(config)
 
